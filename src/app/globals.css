@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.app-card{
+  @apply min-h-screen mx-auto flex flex-row justify-between bg-white;
+}
+
+
+.icon-add{
+  @apply w-[4%] text-right;
+}
